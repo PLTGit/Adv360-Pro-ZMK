@@ -1,3 +1,27 @@
+macro_medsec: macro_medsec{
+compatible = "zmk,behavior-macro";
+label = "macro_medsec";
+#binding-cells = <0>;
+bindings = <&kp LS(M)>, <&kp U>, <&kp L>, <&kp O>, <&kp S>, <&kp B>, <&kp A>, <&kp N2>, <&kp N7>, <&kp EXCLAMATION>;
+};
+macro_library: macro_library{
+compatible = "zmk,behavior-macro";
+label = "macro_library";
+#binding-cells = <0>;
+bindings = <&kp M>, <&kp A>, <&kp N9>, <&kp N4>, <&kp L>, <&kp M>, <&kp C>;
+};
+macro_lds: macro_lds{
+compatible = "zmk,behavior-macro";
+label = "macro_lds";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp N>, <&kp SPACE>, <&kp E>, <&kp L>, <&kp E>, <&kp P>, <&kp H>, <&kp A>, <&kp N>, <&kp T>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp R>, <&kp A>, <&kp S>, <&kp O>, <&kp L>, <&kp SPACE>, <&kp S>, <&kp H>, <&kp A>, <&kp D>, <&kp E>;
+};
+macro_mac: macro_mac{
+compatible = "zmk,behavior-macro";
+label = "macro_mac";
+#binding-cells = <0>;
+bindings = <&kp LS(P)>, <&kp R>, <&kp A>, <&kp G>, <&kp M>, <&kp A>, <&kp T>, <&kp I>, <&kp C>, <&kp SPACE>, <&kp LS(S)>, <&kp L>, <&kp O>, <&kp T>, <&kp H>, <&kp SPACE>, <&kp LS(T)>, <&kp I>, <&kp C>, <&kp K>, <&kp L>, <&kp E>, <&kp S>, <&kp SPACE>, <&kp AMPERSAND>, <&kp DOLLAR>, <&kp N8>, <&kp N8>, <&kp N2>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
